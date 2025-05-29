@@ -70,6 +70,10 @@ export default async function RootLayout({ children }) {
           docsRepositoryBase="https://github.com/dabaz-official/infobit"
           footer={footer}
           editLink='编辑此页面'
+          feedback={{
+            content: '有问题？给我们反馈',
+            labels: 'feedback'
+          }}
           navigation={{
             prev: true,
             next: true
