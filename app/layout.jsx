@@ -3,6 +3,7 @@ import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
 import cn from 'clsx'
+import 'katex/dist/katex.min.css'
 
 import { InfoBitWordmark, DabAZWordmark } from './wordmark'
  
