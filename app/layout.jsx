@@ -68,7 +68,7 @@ export default async function RootLayout({ children }) {
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/dabaz-official/infobit"
+          docsRepositoryBase="https://github.com/dabaz-official/infobit/tree/master"
           footer={footer}
           editLink='编辑此页面'
           feedback={{
